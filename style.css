@@ -82,3 +82,44 @@ body {
 .navbar-toggler-icon {
   background-color: #898AC4;
 }
+
+.gallery-card img {
+  transition: transform 0.4s ease;
+
+}
+
+.gallery-card:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-card {
+  overflow: visible;
+  border-radius: 10px;
+  height: 475px;
+  background-color: #faf1e5;
+}
+
+.card-title {
+  color: #faf1e5;
+}
+
+.card-text {
+  color:#faf1e5 !important;
+}
+
+.image-wrapper {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.modal-content{
+  background-color: #A2AADB;
+}
+
+.bojateksta {
+  color: #faf1e5;
+}
