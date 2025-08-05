@@ -1,11 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 body {
 	background-color: #C0C9EE;
 	padding-bottom: 60px;
 }
 
-.text{
+header{
+   height: 300px;
+   background-size: cover; 
+   padding: 125px 20px;
+}
+
+
+
+.text-naslov{
 	color: #898AC4;
 	text-align: center;
+
+    background-color: rgba(245, 245, 245, 0.92);
+    border-radius: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-podnaslov{
+
+  color: #525275;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Libertinus Serif", serif;
+  font-style: normal;
+}
+
+#header-podnaslov{
+ background-color: rgba(245, 245, 245, 0.92);
+    border-radius: 15px;
+
 }
 
 .bg-footer {
@@ -28,6 +59,7 @@ body {
   background-color: #A2AADB !important;
   font-family: 'Georgia', serif;
   padding: 10px 30px;
+  height: 100px;
 }
 
 .navbar-izgled .nav-link {
@@ -132,7 +164,11 @@ body {
 
 h2 {
   color: #525275;
+  text-align: center;
+  margin-top: 25px;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
+  font-style: normal;
 }
 
 h5 {
@@ -142,10 +178,11 @@ h5 {
 
 
 p {
-  color: #525275;
-  font-size: 18px;
-  line-height: 1.6;
-  font-family: "Trirong", serif;;
+ color: #525275;
+  font-weight: 400;
+  text-align: justify;
+  font-family: "Libertinus Serif", serif;
+  font-style: normal;
 }
 
 li {
